@@ -32,3 +32,36 @@ public typealias Vectuple3<Element> = (Element, Element, Element)
 
 /// A homogeneous 4-tuple.
 public typealias Vectuple4<Element> = (Element, Element, Element, Element)
+
+/// A homogeneous 5-tuple.
+public typealias Vectuple5<Element> = (Element, Element, Element, Element, Element)
+
+/// A homogeneous 6-tuple.
+public typealias Vectuple6<Element> = (
+  Element, Element, Element, Element, Element,
+  Element
+)
+
+/// A homogeneous 7-tuple.
+public typealias Vectuple7<Element> = (
+  Element, Element, Element, Element, Element,
+  Element, Element
+)
+
+/// A homogeneous 8-tuple.
+public typealias Vectuple8<Element> = (
+  Element, Element, Element, Element, Element,
+  Element, Element, Element
+)
+
+/// A homogeneous 9-tuple.
+public typealias Vectuple9<Element> = (
+  Element, Element, Element, Element, Element,
+  Element, Element, Element, Element
+)
+
+/// A homogeneous 10-tuple.
+public typealias Vectuple10<Element> = (
+  Element, Element, Element, Element, Element,
+  Element, Element, Element, Element, Element
+)

@@ -48,3 +48,9 @@ When a type is defined for homogeneous data, of known count, it's often called a
 - ``Vectuple2``
 - ``Vectuple3``
 - ``Vectuple4``
+- ``Vectuple5``
+- ``Vectuple6``
+- ``Vectuple7``
+- ``Vectuple8``
+- ``Vectuple9``
+- ``Vectuple10``
