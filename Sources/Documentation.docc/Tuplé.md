@@ -39,3 +39,4 @@ You've got the source code, so aside from reading this documentation, see the **
 - <doc:Type>
 - <doc:Pack>
 - ``Swift/Sequence``
+- ``Swift/Strideable/stride(from:by:shape:)``
