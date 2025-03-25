@@ -14,14 +14,14 @@ struct PropertyTests {
     #expect(count((Int, Int, Int).self) == 3)
   }
 
+  /// - Bug: Swift Testing no longer allows this to compile without `result`.
   @Test func test_enumerated() {
-    #expect(
-      enumerated(("0️⃣", 1, 2.0)) == (
-        (offset: 0, element: "0️⃣"),
-        (offset: 1, element: 1),
-        (offset: 2, element: 2)
-      )
+    let result = enumerated(("0️⃣", 1, 2.0)) == (
+      (offset: 0, element: "0️⃣"),
+      (offset: 1, element: 1),
+      (offset: 2, element: 2)
     )
+    #expect(result)
   }
 
   @Test func test_flattened() {
