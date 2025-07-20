@@ -43,7 +43,7 @@ struct InstanceMethodTests {
   }
 
   @Test func test_map_transforms() throws {
-    #expect(map((1, 1), transforms: { $0 + 1 }, { $0 + 2 }) == (2, 3))
+    #expect(map((1, "1"), transforms: { $0 + 1 }, { $0 + "2" }) == (2, "12"))
   }
 
   @Test func test_map_vectuple() throws {
