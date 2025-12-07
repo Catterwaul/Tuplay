@@ -17,6 +17,17 @@
   return (repeat (iterator.next()!, each element))
 }
 
+/// The first element of a given type, within a tuple.
+@inlinable public func first<each Element, Match>(
+  type: Match.Type = Match.self,
+  _ element: (repeat each Element)
+) -> Match? {
+  for case let element as Match in repeat each element {
+    return element
+  }
+  return nil
+}
+
 /// Whether a tuple contains any elements.
 ///
 /// - Note: The tuple that represents one `Void` is a special case.

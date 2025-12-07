@@ -40,6 +40,7 @@ That's how the package authors think about the functions cataloged below.
 
 - ``count(_:)-22au4``
 - ``enumerated(_:)``
+- ``first(type:_:)``
 - ``isEmpty(_:)-ls06``
 
 ### flattened

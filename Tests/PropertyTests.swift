@@ -42,6 +42,10 @@ struct PropertyTests {
     let twoVoids = ((), ())
     #expect(!isEmpty(twoVoids))
   }
+  
+  @Test func test_first() {
+    #expect(first(("one", 2)) == 2)
+  }
 
   @Test func test_prefix() {
     let tuple2 = (0, 1)
