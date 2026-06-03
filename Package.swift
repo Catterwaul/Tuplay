@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 6.3
 
 import Foundation // for String.capitalized
 import PackageDescription
